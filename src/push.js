@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import key from './pushNotification'
+import React from 'react'
+
 async function subsciber(){
   let sw=await navigator.serviceWorker.ready;
   let push=sw.pushManager.subscribe({
